@@ -3,6 +3,7 @@ function setup() {
 }
 
 function draw() {
+    background("purple");
     
     if (keyDown(UP_ARROW)) {
         console.log("Changing color to red");
